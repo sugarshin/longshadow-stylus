@@ -1,0 +1,16 @@
+{
+  "name": "longshadow-stylus",
+  "version": "0.0.1",
+  "main": "dist/longshadow.styl",
+  "authors": [
+    "sugarshin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

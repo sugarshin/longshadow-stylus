@@ -1,0 +1,22 @@
+@import "nib"
+@import "dist/longshadow.styl"
+
+normalize-css()
+
+_base_color = indianred
+
+body
+  background _base_color
+
+.container
+  display table
+  width 100%
+  height 100%
+h1
+  text-align center
+  font-size 6em
+  display table-cell
+  vertical-align middle
+  line-height 1
+  color lighten(_base_color, 16%)
+  text-longshadow(darken(_base_color, 16%))

@@ -1,0 +1,209 @@
+/*
+ * @license longshadow-stylus
+ * (c) sugarshin
+ * License: MIT
+ */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+details,
+section,
+summary,
+aside,
+main,
+menu,
+nav,
+figcaption,
+figure,
+footer,
+header,
+hgroup {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+b,
+strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type='checkbox'],
+input[type='radio'] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type='search'] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+body {
+  background: #cd5c5c;
+}
+.container {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 6em;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1;
+  color: #d57676;
+  text-shadow: 0 0 #bf3b3b, 1px 1px rgba(191,59,59,0.992), 2px 2px rgba(191,59,59,0.984), 3px 3px rgba(191,59,59,0.977), 4px 4px rgba(191,59,59,0.969), 5px 5px rgba(191,59,59,0.961), 6px 6px rgba(191,59,59,0.953), 7px 7px rgba(191,59,59,0.945), 8px 8px rgba(191,59,59,0.938), 9px 9px rgba(191,59,59,0.93), 10px 10px rgba(191,59,59,0.922), 11px 11px rgba(191,59,59,0.914), 12px 12px rgba(191,59,59,0.906), 13px 13px rgba(191,59,59,0.898), 14px 14px rgba(191,59,59,0.891), 15px 15px rgba(191,59,59,0.883), 16px 16px rgba(191,59,59,0.875), 17px 17px rgba(191,59,59,0.867), 18px 18px rgba(191,59,59,0.859), 19px 19px rgba(191,59,59,0.852), 20px 20px rgba(191,59,59,0.844), 21px 21px rgba(191,59,59,0.836), 22px 22px rgba(191,59,59,0.828), 23px 23px rgba(191,59,59,0.82), 24px 24px rgba(191,59,59,0.813), 25px 25px rgba(191,59,59,0.805), 26px 26px rgba(191,59,59,0.797), 27px 27px rgba(191,59,59,0.789), 28px 28px rgba(191,59,59,0.781), 29px 29px rgba(191,59,59,0.773), 30px 30px rgba(191,59,59,0.766), 31px 31px rgba(191,59,59,0.758), 32px 32px rgba(191,59,59,0.75), 33px 33px rgba(191,59,59,0.742), 34px 34px rgba(191,59,59,0.734), 35px 35px rgba(191,59,59,0.727), 36px 36px rgba(191,59,59,0.719), 37px 37px rgba(191,59,59,0.711), 38px 38px rgba(191,59,59,0.703), 39px 39px rgba(191,59,59,0.695), 40px 40px rgba(191,59,59,0.688), 41px 41px rgba(191,59,59,0.68), 42px 42px rgba(191,59,59,0.672), 43px 43px rgba(191,59,59,0.664), 44px 44px rgba(191,59,59,0.656), 45px 45px rgba(191,59,59,0.648), 46px 46px rgba(191,59,59,0.641), 47px 47px rgba(191,59,59,0.633), 48px 48px rgba(191,59,59,0.625), 49px 49px rgba(191,59,59,0.617), 50px 50px rgba(191,59,59,0.609), 51px 51px rgba(191,59,59,0.602), 52px 52px rgba(191,59,59,0.594), 53px 53px rgba(191,59,59,0.586), 54px 54px rgba(191,59,59,0.578), 55px 55px rgba(191,59,59,0.57), 56px 56px rgba(191,59,59,0.563), 57px 57px rgba(191,59,59,0.555), 58px 58px rgba(191,59,59,0.547), 59px 59px rgba(191,59,59,0.539), 60px 60px rgba(191,59,59,0.531), 61px 61px rgba(191,59,59,0.523), 62px 62px rgba(191,59,59,0.516), 63px 63px rgba(191,59,59,0.508), 64px 64px rgba(191,59,59,0.5), 65px 65px rgba(191,59,59,0.492), 66px 66px rgba(191,59,59,0.484), 67px 67px rgba(191,59,59,0.477), 68px 68px rgba(191,59,59,0.469), 69px 69px rgba(191,59,59,0.461), 70px 70px rgba(191,59,59,0.453), 71px 71px rgba(191,59,59,0.445), 72px 72px rgba(191,59,59,0.438), 73px 73px rgba(191,59,59,0.43), 74px 74px rgba(191,59,59,0.422), 75px 75px rgba(191,59,59,0.414), 76px 76px rgba(191,59,59,0.406), 77px 77px rgba(191,59,59,0.398), 78px 78px rgba(191,59,59,0.391), 79px 79px rgba(191,59,59,0.383), 80px 80px rgba(191,59,59,0.375), 81px 81px rgba(191,59,59,0.367), 82px 82px rgba(191,59,59,0.359), 83px 83px rgba(191,59,59,0.352), 84px 84px rgba(191,59,59,0.344), 85px 85px rgba(191,59,59,0.336), 86px 86px rgba(191,59,59,0.328), 87px 87px rgba(191,59,59,0.32), 88px 88px rgba(191,59,59,0.313), 89px 89px rgba(191,59,59,0.305), 90px 90px rgba(191,59,59,0.297), 91px 91px rgba(191,59,59,0.289), 92px 92px rgba(191,59,59,0.281), 93px 93px rgba(191,59,59,0.273), 94px 94px rgba(191,59,59,0.266), 95px 95px rgba(191,59,59,0.258), 96px 96px rgba(191,59,59,0.25), 97px 97px rgba(191,59,59,0.242), 98px 98px rgba(191,59,59,0.234), 99px 99px rgba(191,59,59,0.227), 100px 100px rgba(191,59,59,0.219), 101px 101px rgba(191,59,59,0.211), 102px 102px rgba(191,59,59,0.203), 103px 103px rgba(191,59,59,0.195), 104px 104px rgba(191,59,59,0.188), 105px 105px rgba(191,59,59,0.18), 106px 106px rgba(191,59,59,0.172), 107px 107px rgba(191,59,59,0.164), 108px 108px rgba(191,59,59,0.156), 109px 109px rgba(191,59,59,0.148), 110px 110px rgba(191,59,59,0.141), 111px 111px rgba(191,59,59,0.133), 112px 112px rgba(191,59,59,0.125), 113px 113px rgba(191,59,59,0.117), 114px 114px rgba(191,59,59,0.109), 115px 115px rgba(191,59,59,0.102), 116px 116px rgba(191,59,59,0.094), 117px 117px rgba(191,59,59,0.086), 118px 118px rgba(191,59,59,0.078), 119px 119px rgba(191,59,59,0.07), 120px 120px rgba(191,59,59,0.063), 121px 121px rgba(191,59,59,0.055), 122px 122px rgba(191,59,59,0.047), 123px 123px rgba(191,59,59,0.039), 124px 124px rgba(191,59,59,0.031), 125px 125px rgba(191,59,59,0.023), 126px 126px rgba(191,59,59,0.016), 127px 127px rgba(191,59,59,0.008), 128px 128px rgba(191,59,59,0);
+}
+
